@@ -1,0 +1,13 @@
+<h2>Novo Usuario</h2>
+Nome: <br>
+<input type="text" [(ngModel)]="usuario.nome">
+<br><br>
+Login: <br>
+<input type="text" [(ngModel)]="usuario.login">
+<br><br>
+Senha: <br>
+<input type="password" [(ngModel)]="usuario.senha">
+<br><br>
+<input type="submit" value="Cadastrar" 
+    (click)="enviar()">
+{{ resp }}

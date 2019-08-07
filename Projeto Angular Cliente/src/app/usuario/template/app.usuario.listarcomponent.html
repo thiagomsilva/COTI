@@ -1,0 +1,11 @@
+<h2>Listar Usuario</h2>
+<table>
+    <tr>
+        <th>NOME</th>
+        <th>LOGIN</th>
+    </tr>
+    <tr *ngFor="let u of lista">
+        <td>{{ u.nome }}</td>
+        <td>{{ u.login }}</td>
+    </tr>
+</table>
